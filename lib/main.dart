@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Stack(
         children: [
           Align (
-            alignment: Alignment(0, -0.9),
+            alignment: Alignment(0, -0.8),
             child: Text("Test your\n reaction speed",
               textAlign: TextAlign.center,
               style: TextStyle(fontSize:38, fontWeight: FontWeight.w900, color: Colors.white),
@@ -68,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           Align (
-            alignment: Alignment(0, 0.9),
+            alignment: Alignment(0, 0.8),
             child: GestureDetector (
               onTap:  () =>  setState(() {
                 switch (gameState) {
