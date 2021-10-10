@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _startWaitingTimer() {
-    final int randomMilliseconds = Random().nextInt(7000) + 1000;
+    final int randomMilliseconds = Random().nextInt(4000) + 1000;
     Timer(Duration(milliseconds: randomMilliseconds), () {
      setState(() {
        gameState = GameState.canBeStopped;
